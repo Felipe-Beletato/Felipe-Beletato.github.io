@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Rocker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rock+Salt&display=swap');
+body{
+    background-color: #121212;
+    color: #f1f1f1;
+}
+.titulos{
+    text-align: center;
+    font-family: 'New Rocker', cursive;
+    font-size: 3em;
+    color: #97111c;
+    text-shadow: 4px 2px rgb(134, 134, 134);
+}
+.titulos-roxo{
+    text-align: center;
+    font-family: 'New Rocker', cursive;
+    font-size: 3em;
+    color: #9D4EDD;
+    text-shadow: 4px 2px rgb(65, 65, 65);
+}
+.titulos-amarelo{
+    text-align: center;
+    font-family: 'New Rocker', cursive;
+    font-size: 3em;
+    color: #a08631;
+    text-shadow: 4px 2px rgb(65, 65, 65);
+}
+
+.subtitulos{    
+    font-family: 'Montserrat';
+    font-size: 1.25em;
+    text-align: center;
+    color: #a08631;
+}
+.textos{
+    font-family: 'Montserrat';
+    font-size: 2em;
+    color: #9D4EDD;
+    text-align: center;
+}
+
+.textobase{
+    font-family: 'Montserrat';
+
+}
+.listas{
+    font-family: 'Montserrat';
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+}
+.moldura-neon {
+    border: 2px solid #9D4EDD;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px #9D4EDD, 0 0 20px #9D4EDD;
+
+}
+.moldura-neon-vermelha {
+    border: 2px solid #8d1919;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px #8d1919, 0 0 20px #8d1919;
+
+}
+.moldura-neon-amarela {
+    border: 2px solid #a08631;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px #a08631, 0 0 20px #a08631;
+}
+
+.comentario {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    font-family: 'Montserrat';
+
+}
+.comentarios {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #1E1E1E;
+    border: 1px solid #444;
+    border-radius: 8px;
+    color: #F5F5F5;
+    font-family: 'Montserrat';
+
+}
+.rodape {
+    font-family: 'Montserrat';
+    background-color: #a08631;
+    color: #cccccc;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.rodape p {
+    margin: 5px 0;
+}
+
+.rodape a {
+    color: #cccccc;
+    text-decoration: underline;
+}
+
+.rodape a:hover {
+    color: #ffffff;
+}
+
+.titulo_2 {
+    font-family: "Rock Salt", fantasy;
+    font-size: 2em;
+    color: #9D4EDD;
+    text-align:center;
+    text-shadow: 4px 2px rgb(73, 73, 73)
+}
