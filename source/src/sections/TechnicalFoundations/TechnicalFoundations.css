@@ -1,0 +1,93 @@
+.technical-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.technical-card {
+    background: var(--bg-secondary);
+
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+
+    padding: 32px;
+
+    transition: all 350ms ease;
+}
+
+.technical-card:hover {
+    transform: translateY(-4px);
+
+    border-color: rgba(78,122,86,.25);
+    box-shadow: 0 8px 24px rgba(0,0,0,.25);
+}
+
+.technical-card h3 {
+    margin: 0;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.8rem;
+    color: var(--text-primary);
+}
+
+.technical-card h3::after {
+    content: "";
+
+    display: block;
+
+    width: 60px;
+    height: 1px;
+
+    margin-top: 12px;
+
+    background: rgba(78,122,86,.4);
+}
+
+.technical-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.technical-icon {
+    width: 44px;
+    height: 44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+
+    background: rgba(78,122,86,.12);
+    color: var(--accent-green);
+
+    flex-shrink: 0;
+}
+
+.technical-description {
+    color: var(--text-secondary);
+
+    line-height: 1.7;
+
+    margin-bottom: 24px;
+}
+.technical-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.technical-tags span {
+    padding: 8px 16px;
+
+    border-radius: 999px;
+
+    background: rgba(78,122,86,.10);
+    color: var(--accent-green);
+
+    font-size: .9rem;
+}

@@ -1,0 +1,23 @@
+:root {
+  --bg-primary: #141210;
+
+  --bg-secondary: #171513;
+
+  --bg-tertiary: #22201D;
+
+  --text-primary: #E8E0D0;
+
+  --text-secondary: #B6AD9C;
+
+  --accent-brown: #8A6A44;
+
+  --accent-green: #4E7A56;
+
+  --accent-green-hover: #5F9168;
+
+  --shadow-default: 0px 8px 24px rgba(0,0,0,.25);
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+}

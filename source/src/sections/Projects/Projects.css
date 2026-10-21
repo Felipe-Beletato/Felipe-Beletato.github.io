@@ -1,0 +1,19 @@
+.projects-status {
+    display: inline-flex;
+
+    width: fit-content;
+    padding: 6px 12px;
+
+    border-radius: 999px;
+    font-size: 0.85rem;
+    background: rgba(78, 122, 86, .12);
+    color: var(--accent-green);
+
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 48px;
+}

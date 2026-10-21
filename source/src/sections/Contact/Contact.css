@@ -1,0 +1,144 @@
+.contact-grid {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 48px;
+
+    margin-top: 48px;
+}
+
+.contact-form {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+
+    padding: 18px;
+
+    background: var(--bg-secondary);
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    border-radius: 12px;
+
+    color: var(--text-primary);
+
+    font-size: 1rem;
+
+    transition: all .3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+
+    outline: none;
+
+    border-color: rgba(78,122,86,.4);
+
+    box-shadow:
+        0 0 0 4px rgba(78,122,86,.08);
+}
+
+.contact-form button {
+
+    width: fit-content;
+
+    padding: 14px 28px;
+
+    background: var(--accent-green);
+
+    border: none;
+
+    border-radius: 12px;
+
+    color: white;
+
+    cursor: pointer;
+
+    transition: all .3s ease;
+}
+
+.contact-form button:hover {
+
+    transform: translateY(-3px);
+}
+
+.contact-form button:disabled {
+    cursor: wait;
+    opacity: .7;
+    transform: none;
+}
+
+.contact-form-status {
+    min-height: 1.5em;
+    color: var(--text-secondary);
+}
+
+.contact-side {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-card {
+    padding: 32px;
+
+    background: var(--bg-secondary);
+
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 16px;
+}
+
+.contact-card h3 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-card ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact-quote {
+    padding-left: 24px;
+    border-left: 2px solid var(--accent-green);
+}
+
+.contact-quote p {
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.8;
+}
+
+.contact-details {
+    padding: 24px;
+    background: var(--bg-secondary);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 16px;
+}
+
+.contact-details h3 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+}
+
+.contact-details a {
+    display: block;
+    color: var(--text-secondary);
+    overflow-wrap: anywhere;
+    margin-top: 8px;
+}
+
+.contact-details a:hover {
+    color: var(--text-primary);
+}
